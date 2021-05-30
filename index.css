@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-page-covers {
+    height: 120px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.main-page-covers-sm {
+    height: 200px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.main-page-covers-md {
+    height: 270px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.main-page-covers-lg {
+    height: 350px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.main-page-covers-xl {
+    height: 400px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.number-facts {
+    background-image: url('https://i.kym-cdn.com/entries/icons/original/000/036/325/kowalskicover.jpg');
+}
+
+.geography {
+    background-image: url('https://upscpathshala.com/content/wp-content/uploads/2020/11/How-to-Study-Geography-for-UPSC.jpg');
+}
+
+.i-have-achieved-comedy {
+    background-image: url('https://res.cloudinary.com/dsxqcsajv/image/upload/v1622311272/temp3_s0xn3a.jpg');
+}
+
+.main-page-heads {
+    color: grey;
+}
+
+.main-search-engine {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/wiki-logo-img.png');
+}
+
+.bg-container {
+    background-image: linear-gradient(to right, #49c4ee, #6e87d6);
+    height: 100vh;
+}
+
+.joke-text {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.joke-button {
+    color: #6c8bd8;
+    background-color: #ffffff;
+    font-size: 24px;
+    width: 120px;
+    border-width: 0;
+    border-radius: 4px;
+}
+
+.main-container {
+    font-family: "Roboto";
+}
+
+.wiki-search-header {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5cdcd;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.wiki-logo {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.search-input {
+    font-size: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5cdcd;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.search-results {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.result-item {
+    margin-bottom: 20px;
+}
+
+.result-title {
+    font-size: 22px;
+}
+
+.link-description {
+    color: #444444;
+    font-size: 15px;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+}
+
+.heading {
+    color: #3e4c59;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.search-input {
+    height: 50px;
+}
+
+.result-countries {
+    margin-top: 18px;
+}
+
+.country-card {
+    background-color: #ebf2fc;
+    border-radius: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.country-flag {
+    width: 70px;
+    height: 70px;
+}
+
+.country-name {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.country-population {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+}
+.bg-container-num {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/numbers-fact-bg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading-num {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.user-input {
+    width: 320px;
+}
+
+.spinner {
+    color: #ffffff;
+}
+
+.fact-text {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
