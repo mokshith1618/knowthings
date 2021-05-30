@@ -58,7 +58,6 @@ function searchengine() {
     }
 
     function createItems(data) {
-        document.getElementById("spinnerwiki").classList.toggle("d-none");
         for (let item of data) {
             eachItem(item);
         }
@@ -74,14 +73,15 @@ function searchengine() {
             })
             .then(function(jsonData) {
                 console.log(jsonData);
+                document.getElementById("spinnerwiki").classList.toggle("d-none");
                 createItems(jsonData['search_results']);
             });
     }
 
     searchInputE1.addEventListener("keydown", function(event) {
         resultContainer.textContent = "";
-        document.getElementById("spinnerwiki").classList.toggle("d-none");
         if (event.key === 'Enter') {
+            document.getElementById("spinnerwiki").classList.toggle("d-none");
             searchResults(searchInputE1.value);
         }
     });
