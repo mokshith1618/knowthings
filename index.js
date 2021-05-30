@@ -150,6 +150,7 @@ function geography() {
     });
 }
 geography();
+
 function numberfact() {
     let inputNum = document.getElementById('userInput');
     let factResult = document.getElementById('fact');
